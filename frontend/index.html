@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manyougens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Powitalny ekran -->
+    <div class="welcome-screen" id="welcome-screen">
+        <h1>manyougens</h1>
+        <p class="sub-text">Kliknij, aby rozpocząć</p>
+    </div>
+
+    <!-- Ekran do przesyłania pliku -->
+    <div class="upload-screen" id="upload-screen">
+        <div class="container">
+            <h2>Wybierz plik genetyczny</h2>
+            <input type="file" id="fileUpload" class="file-upload">
+            <button class="submit-btn" onclick="submitFile()">Wyślij plik</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
